@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 8 ]> <html class="ie ie7" lang="ru"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8" lang="ru"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9" lang="ru"> <![endif]-->
+<!--[if gt IE 9]><!--><html lang="ru"><!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<title>Spage</title>
+	<link rel="stylesheet" href="css/reset-ls.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/b-spage-header.css" />
+	<link rel="stylesheet" href="css/b-popup-login.css" />
+	<link rel="stylesheet" href="css/b-lists.css" />
+	<link rel="stylesheet" href="css/b-tasks-list.css" />
+	<link rel="stylesheet" href="css/b-pagination.css" />
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script type="text/javascript" src="js/jquery.min.js" ></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/placeholder.js"></script>
+	<script type="text/javascript" src="js/b-popup-login.js"></script>
+</head>
+<body>
+	<div class="page-wrap">
+		<div class="page">
+			<header class="page-header">
+				<div class="spage-header">
+					<h1 class="spage-header-slogan">
+						<a href="#" class="header-slogan-home">Spage</a><span class="header-slogan-text">— ежедневная верстка</span>
+					</h1>
+					<div class="spage-header-menu">
+						<a href="#" class="spage-header-login">Войти</a>
+						<div class="popup-login">
+							<div class="popup-login-head">
+								<span class="popup-login-head-button">Войти</span>
+							</div>
+							<div class="popup-login-body">
+								<span class="popup-login-wline"></span>
+								<div class="popup-login-row"><input type="text" class="popup-login-row-input" placeholder="Логин LDAP"></div>
+								<div class="popup-login-row popup-login-row_pass"><input type="password" class="popup-login-row-input" placeholder="Пароль"></div>
+								<a href="#" class="popup-login-btn">войти</a>
+								<div class="popup-login-clear"></div>
+							</div>
+						</div>
+						<a href="#" class="spage-header-mytasks" style="display: none;">Мои задачи</a>
+					</div>
+					<hr size="0" />
+				</div>
+			</header>
+			<section class="page-body">
+				<table class="page-body-tbl">
+					<tr class="page-body-tr">
+						<td class="aside-l">
+							<div class="aside-l-inn">
+								<section class="lists">
+									<nav class="lists-section">
+										<h2 class="lists-section-heading">Статус</h2>
+										<ul class="lists-menu">
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link lists-menu-link_all">Все страницы</a></li>
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link">Сделанные</a><span class="lists-menu-done">147</span></li>
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link">В работе</a><span class="lists-menu-work">3</span></li>
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link">Непринятые</a><span class="lists-menu-unaccepted">4</span></li>
+										</ul>
+									</nav>
+									<hr size="15" />
+									<nav class="lists-section">
+										<h2 class="lists-section-heading">Время вёрстки</h2>
+										<ul class="lists-menu">
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link lists-menu-link_all">Вся вёрстка</a></li>
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link">Последние сутки</a></li>
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link">Вчера</a></li>
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link">Последние 3 дня</a></li>
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link">Неделя</a></li>
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link">Месяц</a></li>
+										</ul>
+									</nav>
+									<hr size="15" />
+									<nav class="lists-section">
+										<h2 class="lists-section-heading">Верстальщик</h2>
+										<ul class="lists-section-menu">
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link lists-menu-link_all">Все верстальщики</a></li>
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link">Антон Борзенко</a></li>
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link">Григорий Усенко</a></li>
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link">Александр Миранович</a></li>
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link">Мария Углова</a></li>
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link">Евгений Харитонов</a></li>
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link">Максим Багинский</a></li>
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link">Александр Кислянский</a></li>
+										</ul>
+									</nav>
+									<hr size="15" />
+									<nav class="lists-section">
+										<h2 class="lists-section-heading">Проекты</h2>
+										<ul class="lists-menu">
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link lists-menu-link_all">Все проекты</a></li>
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link">Tourclient</a></li>
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link">Tourindex</a></li>
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link">Travelrealty</a></li>
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link">Rutraveller</a></li>
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link">Tourclient (сайт)</a></li>
+										</ul>
+									</nav>
+								</section>
+							</div>
+						</td>
+						<td class="content">
+							<div class="content-inn">
+								<section class="tasks-list">
+									<div class="last-24">
+										<h3 class="list-heading">Последние сутки</h3>
+										<ul class="list">
+											<li class="list-item">
+												<a href="#" class="task task_unaccepted">tourindex: профиль страны</a>
+												<p class="task-history"><a href="#" class="task-history-link">История верстки</a></p>
+											</li>
+											<li class="list-item">
+												<a href="#" class="task task_work">tourindex: поиск туров (главная страница раздела туры)</a>
+												<p class="task-history"><a href="#" class="task-history-link">История верстки</a></p>
+											</li>
+											<li class="list-item">
+												<a href="#" class="task task_done">tourindex: профиль страны</a>
+												<p class="task-history"><a href="#" class="task-history-link">История верстки</a></p>
+											</li>
+											<li class="list-item">
+												<a href="#" class="task task_done">tourindex: поиск туров (главная страница раздела туры)</a>
+												<p class="task-history"><a href="#" class="task-history-link">История верстки</a></p>
+											</li>
+										</ul>
+									</div>
+									<hr size="10" />
+									<div class="yesterday">
+										<h3 class="list-heading">Вчера</h3>
+										<ul class="list">
+											<li class="list-item">
+												<a href="#" class="task task_unaccepted">tourindex: профиль страны</a>
+												<p class="task-history"><a href="#" class="task-history-link">История верстки</a></p>
+											</li>
+											<li class="list-item">
+												<a href="#" class="task task_work">tourindex: поиск туров (главная страница раздела туры)</a>
+												<p class="task-history"><a href="#" class="task-history-link">История верстки</a></p>
+											</li>
+											<li class="list-item">
+												<a href="#" class="task task_done">tourindex: профиль страны</a>
+												<p class="task-history"><a href="#" class="task-history-link">История верстки</a></p>
+											</li>
+											<li class="list-item">
+												<a href="#" class="task task_done">tourindex: поиск туров (главная страница раздела туры)</a>
+												<p class="task-history"><a href="#" class="task-history-link">История верстки</a></p>
+											</li>
+										</ul>
+									</div>
+									<hr size="10" />
+									<div class="day">
+										<h3 class="list-heading">15 сен, вт</h3>
+										<ul class="list">
+											<li class="list-item">
+												<a href="#" class="task task_unaccepted">tourindex: профиль страны</a>
+												<p class="task-history"><a href="#" class="task-history-link">История верстки</a></p>
+											</li>
+											<li class="list-item">
+												<a href="#" class="task task_work">tourindex: поиск туров (главная страница раздела туры)</a>
+												<p class="task-history"><a href="#" class="task-history-link">История верстки</a></p>
+											</li>
+											<li class="list-item">
+												<a href="#" class="task task_done">tourindex: профиль страны</a>
+												<p class="task-history"><a href="#" class="task-history-link">История верстки</a></p>
+											</li>
+											<li class="list-item">
+												<a href="#" class="task task_done">tourindex: поиск туров (главная страница раздела туры)</a>
+												<p class="task-history"><a href="#" class="task-history-link">История верстки</a></p>
+											</li>
+										</ul>
+									</div>
+									<hr size="25" />
+									<div class="pagination-block">
+										<table class="pagination-table" width="100%">
+											<tr>
+												<td class="pagination-table-col1">
+													<div class="pagination pagination-search">
+														<div class="pagination-npwrap">
+															<span class="pagination-prev">
+																<a href="#" class="pagination-prev-a">предыдущая</a>
+															</span> 
+															<span class="pagination-first">
+																<a href="#" class="pagination-first-a">первая</a>
+															</span>
+															</div>
+															<div class="pagination-pages">
+																<a href="#" class="pagination-pages-a">21</a> 
+																<a href="#" class="pagination-pages-a">22</a> 
+																<span class="pagination-pages-span">23</span> 
+																<a href="#" class="pagination-pages-a">24</a> 
+																<a href="#" class="pagination-pages-a">25</a>
+															</div>
+														<div class="pagination-npwrap"><span class="pagination-next"><a href="#" class="pagination-next-a">следующая</a></span> <span class="pagination-last"><a href="#" class="pagination-last-a">последняя</a> (235)</span></div>
+													</div>
+												</td>
+											</tr>
+										</table>
+								</section>
+							</div>
+						</td>
+						<td class="aside-r">
+							<div class="aside-r-inn">
+								<section class="lists">
+									<div class="lists-new-task">
+										<a href="#" class="new-task-button">Новая задача</a>
+									</div>
+									<hr size="25" />
+									<nav class="lists-section lists-section_right">
+										<h2 class="lists-section-heading">Индексы проектов</h2>
+										<ul class="lists-menu">
+											<li class="lists-menu-item"><a href="http://spage.ru/tourclient/forms-color.html" class="lists-menu-link">Модули turclient</a></li>
+											<li class="lists-menu-item"><a href="http://spage.ru/tc-web/index.html" class="lists-menu-link">Сайт turclient</a></li>
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link">Tourindex</a></li>
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link">Tophotels</a></li>
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link">Travelrealty</a></li>
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link">Demotravel</a></li>
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link">Turpoisk</a></li>
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link">Hotelsbonus</a></li>
+											<li class="lists-menu-item"><a href="#" class="lists-menu-link">Hotelsbroker</a></li>
+										</ul>
+									</nav>
+								</section>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</section>
+		</div>
+	</div>
+</body>
+</html>
